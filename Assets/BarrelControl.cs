@@ -20,9 +20,9 @@ public class BarrelControl : MonoBehaviour
     [Range(0, 45)]
     public float barrelElevation;
 
-    public float launchSpeed = 20;
+    private float launchSpeed = 16;
 
-    public float cooldown = 3.0f;
+    private float cooldown = 3.0f;
     private float currentCooldown = 0;
 
     void Start()
